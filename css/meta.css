@@ -1,0 +1,14 @@
+.meta {
+  display: flex;
+  gap: .5em;
+  align-items: center; }
+  .meta .tags {
+    display: inline-flex;
+    gap: .5em; }
+    .meta .tags > * {
+      display: inline-block;
+      font-size: .8em;
+      font-family: monospace;
+      padding: .1em .4em;
+      background-color: #00000022;
+      border-radius: 2pt; }

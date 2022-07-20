@@ -1,0 +1,9 @@
+body > header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: #222; }
+  body > header #site-name {
+    font-size: 2rem;
+    font-weight: bold; }

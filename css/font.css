@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "cjk-normal";
+  font-style: normal;
+  src: local("Simsun"); }
+
+@font-face {
+  font-family: "cjk-italic";
+  font-style: italic;
+  src: local("FangSong"); }
+
+@font-face {
+  font-family: "latin-normal";
+  font-style: normal;
+  src: local("Times New Roman"); }
+
+@font-face {
+  font-family: "latin-italic";
+  font-style: italic;
+  src: local("Times New Roman Italic"); }

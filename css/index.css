@@ -1,0 +1,6 @@
+section ul {
+  padding: 0; }
+  section ul li {
+    margin-bottom: .8em;
+    list-style: none;
+    text-indent: 0; }
