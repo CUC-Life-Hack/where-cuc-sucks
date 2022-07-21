@@ -346,9 +346,26 @@ h2 {
   margin-bottom: .5em;
   font-size: 1.5rem; }
 
+h3 {
+  margin-top: .4em;
+  font-size: 1.15rem; }
+
 p {
   text-indent: 2em;
   margin: .4em 0; }
+
+figure-roll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  max-height: 16rem;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1em;
+  margin: .4em 0; }
+  figure-roll > * {
+    width: max-content; }
 
 a {
   color: currentColor;
@@ -362,7 +379,8 @@ u {
   font-style: italic;
   font-family: "latin-italic", "cjk-italic", serif;
   border-bottom: 1px solid;
-  border-image: linear-gradient(currentcolor, currentcolor) 1 0/1 1px; }
+  border-image: linear-gradient(currentcolor, currentcolor) 1 0/1 1px;
+  text-decoration: none; }
 
 blockquote, q {
   font-style: italic;
@@ -374,12 +392,20 @@ blockquote {
   padding-left: .8em;
   padding-right: 1em; }
 
-figure {
-  display: flex;
-  justify-content: center;
-  gap: 1em;
-  margin: .8em 4em; }
-
 img {
   max-width: 25rem;
+  max-height: 100%;
   object-fit: contain; }
+
+comment {
+  display: block;
+  border: 1px solid black;
+  padding: .4rem 1rem; }
+
+side-note {
+  display: block;
+  float: right;
+  font-size: .9rem;
+  border: 1px solid black;
+  padding: .2rem .3rem;
+  text-indent: 0; }
